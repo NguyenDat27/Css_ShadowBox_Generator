@@ -1,0 +1,44 @@
+.css-code-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  width: 75%;
+  padding: 0px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.css-code-container h2 {
+  text-align: left;
+  margin-top: 0;
+  font-size: 16px;
+  padding: 20px;
+  font-weight: 500;
+  color: #333;
+}
+.css-code-container span {
+  display: flex;
+  width: 85%;
+  padding: 0px 20px 20px 20px;
+  font-family: monospace;
+}
+
+@media (max-width: 768px) {
+  .css-code-container {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .css-code-container {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}

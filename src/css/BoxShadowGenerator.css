@@ -1,0 +1,144 @@
+.container_generator {
+  font-size: 14px;
+  flex: 1;
+  width: 75%;
+  padding: 0px;
+  background-color: white;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container_generator h1 {
+  font-size: 16px;
+  padding: 20px 20px 10px 20px;
+  font-weight: 500;
+  margin-top: 0;
+}
+
+.control-item {
+  padding: 0px 20px 20px 20px;
+}
+
+.addlayer {
+  display: flex;
+  width: 95px;
+  height: 35px;
+  align-item: center;
+  background-color: white;
+  color: black;
+  border: 1px solid #c8c8c8;
+  border-radius: 2px;
+  margin-bottom: 16px;
+}
+
+.addlayer:hover {
+  background-color: #f5f5f5 !important;
+  color: black !important;
+  border: 1px solid #c8c8c8 !important;
+}
+
+.list-item {
+  background-color: #fffafa;
+  width: 100%;
+  border: none;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.list-item:hover {
+  background-color: #f5f5f5;
+}
+
+.list-item.selected-item {
+  background-color: #5c6ac4;
+  color: white;
+}
+
+.list-item.selected-item:hover {
+  background-color: #404da0;
+  color: white;
+}
+
+.list-item > .box-shadow-info {
+  margin-left: 5px;
+  flex-grow: 1;
+}
+.editicon {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.list-item.selected-item .delete-btn {
+  color: white;
+}
+
+.list-item.selected-item .delete-btn:hover {
+  color: white !important;
+}
+
+.delete-btn {
+  color: black;
+}
+
+.delete-btn:hover {
+  color: black !important;
+}
+
+.ant-slider-track {
+  background-color: #5c6ac4 !important;
+}
+
+.ant-slider-rail {
+  background-color: #c4cdd5 !important;
+}
+
+.color-picker-button-container-generator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 26px;
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid #d9d9d9;
+  padding: 3px;
+}
+
+.color-picker-button-generator {
+  background-color: inherit;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  box-shadow: none;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .container_generator {
+    width: 100%;
+    float: center;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container_generator {
+    width: 100%;
+    float: center;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
