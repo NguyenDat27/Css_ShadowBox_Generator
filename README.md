@@ -65,10 +65,6 @@ Follow these steps to get the application up and running on your local machine:
 - [Preact Documentation](https://preactjs.com/)
 - [Vite Documentation](https://vitejs.dev/)
 
-Here is a screenshot of the application:
-
-![Application Screenshot](./src/assets/screenshot.png)
-
 ## By
 
 **Nguyen Thanh Dat**
