@@ -1,6 +1,6 @@
 import { h } from 'preact';
 import BoxShadowGenerator from './components/BoxShadowGenerator';
-import Header from './components/Heder';
+import Header from './components/Header';
 
 const App = () => {
   return (
