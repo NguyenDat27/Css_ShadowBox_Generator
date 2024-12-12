@@ -14,6 +14,6 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.header-container:hover {
+.header-container span:hover {
   color: #5c6ac4;
 }

@@ -5,12 +5,8 @@ import Header from './components/Heder';
 const App = () => {
   return (
     <div>
-      <div>
-        <Header/>
-      </div>
-      <div>
-        <BoxShadowGenerator />
-      </div>
+      <Header/>
+      <BoxShadowGenerator />
     </div>
   );
 };
